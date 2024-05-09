@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import streamlit as st
 
 # Загрузка данных из SPSS и сохранение их в Excel для каждого года и страны
 def process_data(country, year):
